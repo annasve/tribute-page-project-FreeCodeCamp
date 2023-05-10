@@ -15,21 +15,21 @@ body {
   margin: 0;
 }
 
-#img-caption{
+#img-caption {
   margin: 10px;
 }
 
-#image{
+#image {
   max-width: 100%;
-  height:auto;
+  height: auto;
   display: block;
-  
+
   margin: 0 auto;
-  /*--> centered within the parent*/ 
+  /*--> centered within the parent*/
 }
 
 #tribute-info {
-  width: 600px;
+  max-width: 600px; /*max-width - helps remove text overflow for mobile*/
   margin: 0 auto;
   text-align: initial;
   line-height: 32px;
@@ -48,7 +48,7 @@ li {
   margin-bottom: 30px;
 }
 
-.endphrase{
+.endphrase {
   margin: 30px;
   font-size: 20px;
   font-weight: bold;
